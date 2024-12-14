@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "whendell-app",
-    "slug": "whendell-app",
+    "slug": "whendell",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "caae407c-31ec-4d1f-a70b-4a2c99ca894c"
+      }
+    },
+    "owner": "jvivascroppia"
   }
 }
